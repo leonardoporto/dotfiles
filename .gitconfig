@@ -1,0 +1,5 @@
+[user]
+	email = leonardo.porto.souza@gmail.com
+	name = Leonardo Porto
+[core]
+	excludesfile = /home/leonardoporto/.gitignore_global
