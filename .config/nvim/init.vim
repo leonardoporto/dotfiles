@@ -1,7 +1,5 @@
 call plug#begin()
-Plug 'morhetz/gruvbox'
-Plug 'exitface/synthwave.vim'
-Plug 'artanikin/vim-synthwave84'
+Plug 'dracula/vim', { 'name': 'dracula' }
 Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -13,7 +11,6 @@ Plug 'Sirver/ultisnips'
 Plug 'elixir-editors/vim-elixir'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'wakatime/vim-wakatime'
-"Plug 'scrooloose/nerdtree'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/vim-easy-align'
@@ -22,7 +19,7 @@ Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
-colorscheme gruvbox
+colorscheme dracula
 set background=dark
 "set background=dark
 "color synthwave84
